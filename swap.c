@@ -6,7 +6,7 @@ void swap_max(int arr[], int end, int start){
                found = i;
                }
  }
-  int temp = arr[start]
+  int temp = arr[start];
   arr[start] = max;
   arr[found] = temp;
 }
